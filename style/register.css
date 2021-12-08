@@ -1,0 +1,88 @@
+body {
+    color: #fff;
+    background: #ecf0f3;
+    font-family: 'Roboto';
+}
+.form-control{
+    height: 40px;
+    box-shadow: none;
+    color: #969fa4;
+}
+.form-control:focus{
+    border-color: #5cb85c;
+}
+.form-control, .btn{        
+    border-radius: 3px;
+}
+.signup-form{
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.signup-form h2{
+    color: #F3BA00;
+    margin: 0 0 15px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+.signup-form h2:before{
+    left: 0;
+}
+.signup-form h2:after{
+    right: 0;
+}
+.signup-form .hint-text{
+    color: #999;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.signup-form form{
+    color: #999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    padding: 30px;
+    border: 2px solid #E5E5E5;
+}
+.signup-form .form-group{
+    margin-bottom: 20px;
+}
+.signup-form .btn{        
+    font-size: 16px;
+    font-weight: bold;		
+    min-width: 140px;
+    outline: none !important;
+}
+.signup-form .row div:first-child{
+    padding-right: 10px;
+}
+.signup-form .row div:last-child{
+    padding-left: 10px;
+}    	
+.signup-form a{
+    color: #1AC073;
+    text-decoration: underline;
+}
+.signup-form a:hover{
+    text-decoration: none;
+}
+.signup-form form a{
+    color: #1AC073;
+    text-decoration: none;
+}	
+.signup-form form a:hover{
+    text-decoration: underline;
+}  
+.btn__signin {
+    background-color: #1AC073;
+    color: white;
+    border: none;
+}
+.btn__signin:hover {
+    background-color: #039752;
+}
+.text-center {
+    color: black;
+}

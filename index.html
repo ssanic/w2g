@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>WHERE2Go</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./script.js">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.js">
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header">
+            <div class="header__container">
+                <div class="header_logo"><img class="logo" src="./img/logo.svg" alt="logo"></div>
+                <div class="register_btn">   
+                    <a href="./signin.html" class="sign_in" target="_blank">Войти</a>
+                    <a href="./register.html" class="register" target="_blank">Регистрация</a>
+                    <a class="button_filter" href="#" id="open_pop_up">Фильтр</a>  
+                </div> 
+            </div>
+        </div>
+        </div>
+         
+        
+    <div class="search_container">
+        <div class="search_wrap">
+            <div class="search_box">
+                <input type="search" class="searchline" placeholder="Найди место которое ты любишь...">
+                <div class="btn">
+                    <p class="search_btn">Поиск</p>
+                </div>
+            </div>
+        </div>
+     </div>    
+    </header>
+    
+<!-- POP_UP -->
+<div class="pop_up" id="pop_up">
+    <div class="pop_up_container">
+        <div class="pop_up_body" id="pop_up_body">
+            <div class="setting">Найстройки поиска</div>
+            <form action="">
+                <div class="category">
+                    <button class="cafe"> <img class="cafe" src="./img/cafe.png" alt="cafe"></button>
+                    <button class="bar"><img class="bar" src="./img/bar.png" alt="bar"></button>
+                   
+                </div>
+                <div class="category2">
+                    <button class="restoran"><img class="restoran" src="./img/restoran.png" alt="restoran"></button>
+                    <button class="pub"><img class="pub" src="./img/pub.png" alt="pub"></button>
+                </div>
+                <button class="apply">Принять</button>
+            </form>
+            <div class="pop_up_close" id="pop_up_close">&#10006</div>
+            
+        </div>
+    </div>
+</div>
+    <!-- PLACES -->
+    <div class="places">
+    <div class="places_container"> 
+        
+            <div class="place_btn chickenstarbtn">
+                <a class="link_img" href="./info.html">
+                    <img class="btn_img chickenstar" src="./img/Chikenstar.png" alt="chickenstar">
+                    <p>Chicken Star</p>
+                </a> 
+                <div class="rating" data-total-value="0">
+                    <div class="rating__item" data-item-value="5">★</div>
+                    <div class="rating__item" data-item-value="4">★</div>
+                    <div class="rating__item" data-item-value="3">★</div>
+                    <div class="rating__item" data-item-value="2">★</div>
+                    <div class="rating__item" data-item-value="1">★</div>
+                </div>
+               </div>
+            
+            <div class="place_btn antsbtn">
+                <a class="link_img" href="./info.html">
+                    <img class="btn_img ants" src="./img/ants.png" alt="ants">
+                    <p>Ant's</p>
+                </a>
+                <div class="rating" data-total-value="0">
+                    <div class="rating__item" data-item-value="5">★</div>
+                    <div class="rating__item" data-item-value="4">★</div>
+                    <div class="rating__item" data-item-value="3">★</div>
+                    <div class="rating__item" data-item-value="2">★</div>
+                    <div class="rating__item" data-item-value="1">★</div>
+                </div>
+            </div>
+           
+        
+        
+            <div class="place_btn bellagiobtn">
+                <a class="link_img" href="./info.html">
+                    <img class="btn_img bellagio" src="./img/bellagio.png" alt="bellagio">
+                    <p>Bellagio Coffee</p>
+                </a>
+                <div class="rating" data-total-value="0">
+                    <div class="rating__item" data-item-value="5">★</div>
+                    <div class="rating__item" data-item-value="4">★</div>
+                    <div class="rating__item" data-item-value="3">★</div>
+                    <div class="rating__item" data-item-value="2">★</div>
+                    <div class="rating__item" data-item-value="1">★</div>
+                </div>
+            </div>
+            <div class="place_btn craftbarbtn">
+                <a class="link_img" href="./info.html">
+                    <img class="btn_img craftbar" src="./img/craftbar.png" alt="craftbar">
+                    <p>Craft Bar</p>
+                </a>
+                <div class="rating" data-total-value="0">
+                    <div class="rating__item" data-item-value="5">★</div>
+                    <div class="rating__item" data-item-value="4">★</div>
+                    <div class="rating__item" data-item-value="3">★</div>
+                    <div class="rating__item" data-item-value="2">★</div>
+                    <div class="rating__item" data-item-value="1">★</div>
+                </div>
+            </div>
+    
+        
+            <div class="place_btn torrobtn">
+                <a class="link_img" href="./info.html">
+                    <img src="./img/torro.png" alt="" class="btn_img torro">
+                    <p>Torro Grill & Bar</p>
+                </a>
+                <div class="rating" data-total-value="0">
+                    <div class="rating__item" data-item-value="5">★</div>
+                    <div class="rating__item" data-item-value="4">★</div>
+                    <div class="rating__item" data-item-value="3">★</div>
+                    <div class="rating__item" data-item-value="2">★</div>
+                    <div class="rating__item" data-item-value="1">★</div>
+                </div>
+            </div>
+            <div class="place_btn dodobtn">
+                <a class="link_img" href="./info.html">
+                    <img src="./img/dodo.png" alt="" class="btn_img dodo">
+                    <p>Dodo Pizza</p>
+                </a>
+                <div class="rating" data-total-value="0">
+                    <div class="rating__item" data-item-value="5">★</div>
+                    <div class="rating__item" data-item-value="4">★</div>
+                    <div class="rating__item" data-item-value="3">★</div>
+                    <div class="rating__item" data-item-value="2">★</div>
+                    <div class="rating__item" data-item-value="1">★</div>
+                </div>
+            </div>
+        
+        
+    </div>
+</div>
+    <div class="pages">
+        <div class="pages_container">
+            <button class="previous"><img src="./img/arrow.svg" alt="previous"></button> 
+            <button class="page">1</button>
+            <button class="page">2</button> 
+            <button class="page">3</button> 
+            <button class="page">4</button>    
+            <button class="next"><img src="./img/arrow.svg" alt="next"></button>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+       <div class="footer__container">
+            <div class="footer__logo"><img class="img_footer" src="./img/logo.png" alt="footerlogo"></div>  
+            <div class="link__container">
+                <a class="footer__link" href="#">Домой</a>
+                <a class="footer__link" href="#">О нас</a>
+                <a class="footer__link" href="#">Контакты</a>
+            </div>
+                
+        </div>
+        <hr>
+        <div class="copyright">Copyright @2021 where2go</div>
+       
+      
+    </footer>
+
+</body>
+<script src="script.js"></script>
+</html>
